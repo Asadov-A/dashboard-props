@@ -123,7 +123,6 @@ function Customers() {
       </div>
 
       <div className="customers-bottom"></div>
-    <div className='customers-box'>
     </div>
   );
 }
