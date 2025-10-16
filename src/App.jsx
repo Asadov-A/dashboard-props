@@ -1,12 +1,19 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Customers from './components/main/customers/customers'
+import LeftMenu from './components/left-menu/LeftMenu'
 
 function App() {
 
   return (
     <>
+
+
+  <main>
+     <LeftMenu></LeftMenu>
+
+     <Customers></Customers>
+  </main>
     </>
   )
 }
