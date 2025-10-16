@@ -5,7 +5,7 @@ import './LeftMenu.css'
 function LeftMenu() {
   return (
     <div className='left-menu'>
-
+      
     </div>
   )
 }
